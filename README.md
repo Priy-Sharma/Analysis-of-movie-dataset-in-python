@@ -13,17 +13,18 @@ This project was implemented using the following tools and libraries:
 - Plotly
 ## Data Cleaning
 <h3>movies_copy_1</h3>
-1. Dataset has 24 columns and 45463 rows.
-2. Deleted the unwanted 8 columns.
-3. Set the datatypes of three columns to desired datatype (int) by doing exploration of those columns and by deleting the unwanted records from those columns.
-4. Checked the NAN values Deleted the records od NAN values because the NAN records were less than 0.5%.
-5. Changes are stored in df_copy_1.
+- The dataset initially had 24 columns and 45,463 rows.
+- Deleted 8 unwanted columns.
+- Set the data types of three columns to the desired datatype (int) by exploring those columns and deleting the unwanted records.
+- Checked for NaN values and deleted the records with NaN values because they accounted for less than 0.5% of the dataset.
+- Changes were stored in <b>movies_copy_1.</b>
 <br/>
 <h3>movies_copy_2</h3>
-1. Deleted the records where the 'budget' and 'revenue' both were zero to minimize the redudancy.
-2. From the columns 'original language' and 'spoken language' only the column 'original language' kept and from 'original_title' and 'title' only the 'title' column is kept because both were depicting the same values.
-3. <b>literal eval </b>function is used to format the columns <b>production_companies</b> and <b>genre</b> because these columns have improper formatting. 
-4. Extracted <b>First_genre</b> and <b>Second_genre</b> from the <b>genre</b> column. 
-5. Extracted the <b>production_company</b> column from the <b>production_companies</b> column.
+- Deleted records where both the <b>budget</b> and <b>revenue</b> were zero to minimize redundancy.
+- Kept only the <b>original_language</b> column and discarded the 'spoken language' column, as well as kept only the <b>title </b>column and discarded the 'original_title' column because they depicted the same values.
+- Used the <b>literal eval </b> function to format the <b>production_companies</b> and <b>genre</b> columns due to improper formatting.
+- Extracted <b>First_genre</b> and <b>Second_genre</b> from the <b>genre</b> column. 
+- Extracted the <b>production_company</b> column from the <b>production_companies</b> column.
 <br/>
+
 
