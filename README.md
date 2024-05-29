@@ -13,18 +13,18 @@ This project was implemented using the following tools and libraries:
 - Plotly
 ## Data Cleaning
 <h3>movies_copy_1</h3>
-- The dataset initially had 24 columns and 45,463 rows.
-- Deleted 8 unwanted columns.
-- Set the data types of three columns to the desired datatype (int) by exploring those columns and deleting the unwanted records.
-- Checked for NaN values and deleted the records with NaN values because they accounted for less than 0.5% of the dataset.
-- Changes were stored in <b>movies_copy_1.</b>
+1. The dataset initially had 24 columns and 45,463 rows. <br/>
+2. Deleted 8 unwanted columns. <br/>
+3. Set the data types of three columns to the desired datatype (int) by exploring those columns and deleting the unwanted records.<br/>
+4. Checked for NaN values and deleted the records with NaN values because they accounted for less than 0.5% of the dataset. <br/>
+5. Changes were stored in <b>movies_copy_1.</b> <br/>
 <br/>
 <h3>movies_copy_2</h3>
-- Deleted records where both the <b>budget</b> and <b>revenue</b> were zero to minimize redundancy.
-- Kept only the <b>original_language</b> column and discarded the 'spoken language' column, as well as kept only the <b>title </b>column and discarded the 'original_title' column because they depicted the same values.
-- Used the <b>literal eval </b> function to format the <b>production_companies</b> and <b>genre</b> columns due to improper formatting.
-- Extracted <b>First_genre</b> and <b>Second_genre</b> from the <b>genre</b> column. 
-- Extracted the <b>production_company</b> column from the <b>production_companies</b> column.
+1. Deleted records where both the <b>budget</b> and <b>revenue</b> were zero to minimize redundancy. <br/>
+2. Kept only the <b>original_language</b> column and discarded the 'spoken language' column, as well as kept only the <b>title </b>column and discarded the 'original_title' column because they depicted the same values. <br/>
+3. Used the <b>literal eval </b> function to format the <b>production_companies</b> and <b>genre</b> columns due to improper formatting.<br/>
+4. Extracted <b>First_genre</b> and <b>Second_genre</b> from the <b>genre</b> column. <br/>
+5. Extracted the <b>production_company</b> column from the <b>production_companies</b> column.<br/>
 <br/>
 
 
