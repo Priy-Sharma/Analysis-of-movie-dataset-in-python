@@ -30,12 +30,18 @@ This project was implemented using the following tools and libraries:
 <br/>
 <h3>movies_copy_4</h3>
 1. Checked the NaN values in the dataset. The counts are as follows <br/>
-- <b>runtime</b> = 1
-- <b>first_genre</b> = 12
-- <b>second_genre</b> = 951 
-- <b>production_company</b> = 18 <br/>
+<ul>
+<li><b>runtime</b> = 1</li>
+<li> <b>first_genre</b> = 12</li>
+<li> <b>second_genre</b> = 951 </li>
+<li> <b>production_company</b> = 18 </li> </ul> <br/>
 2. Some of the initial DataFrame records for <b>production_companies</b> and <b>genres</b> had empty lists. After applying literal_eval, these empty lists were converted to NaN. <br/>
 3. Filled the NaN values in the <b>production_company</b> column using a Random Forest classifier. <br/>
 4. Deleted the record where the <b>runtime</b> had a NaN value. <br/>
 5. Filled the NaN values in the <b>second_genre</b> column using the ffill method, duplicating the <b>first_genre</b> values in the <b>second_genre</b> column where NaN values were present. <br/>
 6. Deleted the 12 records where <b>first_genre</b> had NaN values. <br/>
+7. Stored the dataframe to new location <b>cleaned_movie_data</b>
+<br/>
+# EDA: Exploratory Data Analysis
+The Following Graphs are plotted,
+
