@@ -22,9 +22,20 @@ This project was implemented using the following tools and libraries:
 <h3>movies_copy_2</h3>
 1. Deleted records where both the <b>budget</b> and <b>revenue</b> were zero to minimize redundancy. <br/>
 2. Kept only the <b>original_language</b> column and discarded the 'spoken language' column, as well as kept only the <b>title </b>column and discarded the 'original_title' column because they depicted the same values. <br/>
+<br/>
+<h3>movies_copy_3</h3>
 3. Used the <b>literal eval </b> function to format the <b>production_companies</b> and <b>genre</b> columns due to improper formatting.<br/>
 4. Extracted <b>First_genre</b> and <b>Second_genre</b> from the <b>genre</b> column. <br/>
 5. Extracted the <b>production_company</b> column from the <b>production_companies</b> column.<br/>
 <br/>
-
-
+<h3>movies_copy_4</h3>
+1. Checked the NaN values in the dataset. The counts are as follows <br/>
+- <b>runtime</b> = 1
+- <b>first_genre</b> = 12
+- <b>second_genre</b> = 951 
+- <b>production_company</b> = 18 <br/>
+2. Some of the initial DataFrame records for <b>production_companies</b> and <b>genres</b> had empty lists. After applying literal_eval, these empty lists were converted to NaN. <br/>
+3. Filled the NaN values in the <b>production_company</b> column using a Random Forest classifier. <br/>
+4. Deleted the record where the <b>runtime</b> had a NaN value. <br/>
+5. Filled the NaN values in the <b>second_genre</b> column using the ffill method, duplicating the <b>first_genre</b> values in the <b>second_genre</b> column where NaN values were present. <br/>
+6. Deleted the 12 records where <b>first_genre</b> had NaN values. <br/>
