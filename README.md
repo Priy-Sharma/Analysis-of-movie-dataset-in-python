@@ -44,4 +44,19 @@ This project was implemented using the following tools and libraries:
 <br/>
 # EDA: Exploratory Data Analysis
 The Following Graphs are plotted,
-
+<ul>
+<li><b>Popular Genres Based on Popularity Score</b></li>
+<li> <b>Movie Count by Genre: A Cinematic Breakdown</b> </li>
+<li> <b>A Financial Journey Through Cinema from 1960 to 2017</b> </li>
+<li> <b>Exploring Profits Based on First Genre</b> </li> 
+<li><b>High Profit top 10 Movies/b></li>
+<li><b>Popular Genres Based on Popularity Score</b></li>
+<li><b>Movie count and Profit Analysis (For Production Companies)</b></li>
+<li><b>Popular Genres Based on Popularity Score</b></li>
+<li><b>Number of Movies Released Per Year Over Time</b></li>
+<li><b>Deep Inside Movie Runtime</b></li>
+</b></li>Influence of languages in Cinematics</b></li>
+</ul> <br/>
+<p>
+  # For the video Explanation of Project <a href = 'https://drive.google.com/file/d/1PlYlgopGn3CSJcziYn-Jc9mnVFHHALYI/view?usp=sharing'>Click</a>
+</p>
