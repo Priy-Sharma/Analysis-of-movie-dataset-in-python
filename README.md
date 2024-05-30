@@ -55,7 +55,7 @@ The Following Graphs are plotted,
 <li><b>Popular Genres Based on Popularity Score</b></li>
 <li><b>Number of Movies Released Per Year Over Time</b></li>
 <li><b>Deep Inside Movie Runtime</b></li>
-</b></li>Influence of languages in Cinematics</b></li>
+<li><b>Influence of languages in Cinematics</b></li>
 </ul> <br/>
 <p>
   <h2> For the video Explanation of the Project <a href = 'https://drive.google.com/file/d/1PlYlgopGn3CSJcziYn-Jc9mnVFHHALYI/view?usp=sharing'>Click</a> here </h2>
