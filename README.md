@@ -42,8 +42,10 @@ This project was implemented using the following tools and libraries:
 6. Deleted the 12 records where <b>first_genre</b> had NaN values. <br/>
 7. Stored the dataframe to new location <b>cleaned_movie_data</b>
 <br/>
-# EDA: Exploratory Data Analysis
-The Following Graphs are plotted,
+<p>
+<h2> EDA: Exploratory Data Analysis </h2>
+  </p>
+<h3>The Following Graphs are plotted,</h3>
 <ul>
 <li><b>Popular Genres Based on Popularity Score</b></li>
 <li> <b>Movie Count by Genre: A Cinematic Breakdown</b> </li>
